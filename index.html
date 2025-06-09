@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Motlhabe Wireless</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    audio {
+      margin-top: 20px;
+      width: 300px;
+    }
+    img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.jpg" alt="Motlhabe Wireless Logo">
+  <h1>🎧 Motlhabe Wireless</h1>
+  <p>Live streaming 24/7 from my laptop!</p>
+  <audio controls autoplay>
+    <source src="http://YOUR-IP-OR-DOMAIN:8000/stream" type="audio/mpeg">
+    Your browser does not support the audio player.
+  </audio>
+</body>
+</html>
