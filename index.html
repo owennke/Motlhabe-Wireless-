@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Motlhabe Wireless</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/logo.jpg" alt="Motlhabe Wireless Logo" class="logo animated" />
+    <h1 class="title">Motlhabe Wireless</h1>
+    <p class="subtitle">"Lekhupu la melodi le kitso"</p>
+    <a href="MotlhabeWireless.apk" download class="download-btn">Download APK</a>
+  </header>
+
+  <section class="stream-section">
+    <h2>Live Stream</h2>
+    <audio id="live-stream" controls autoplay>
+      <source src="http://173.249.21.108:8388/stream" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section class="podcast-section">
+    <h2>Latest Podcasts</h2>
+    <div id="podcast-list" class="podcast-list"></div>
+  </section>
+
+  <footer>
+    © 2025 Motlhabe Wireless. All rights reserved.
+  </footer>
+</body>
+</html>
